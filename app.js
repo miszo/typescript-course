@@ -29,3 +29,8 @@ var Color;
 })(Color || (Color = {}));
 var myColor = Color.Green;
 console.log(myColor);
+// any
+var car = 'Audi';
+console.log(car);
+car = { brand: 'Audi', series: 'Q7' };
+console.log(car);
