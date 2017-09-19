@@ -40,3 +40,22 @@ let car: any = 'Audi';
 console.log(car);
 car = { brand: 'Audi', series: 'Q7' };
 console.log(car);
+
+// function and types
+function returnMyName(): string {
+  return myName;
+}
+console.log(returnMyName());
+
+// void
+function sayHello(): void {
+  console.log('Hello!');
+}
+
+// argument types
+function multiply(value1: number, value2: number): number {
+  return value1 * value2;
+}
+
+// console.log(multiply(2, 'miszo'));
+console.log(multiply(2, 2));
