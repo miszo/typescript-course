@@ -19,3 +19,7 @@ myRealAge = 30;
 let hobbies: any[] = ['cooking', 'football'];
 hobbies = [100];
 // hobbies = 100; // type error
+
+// tuples
+let address: [string, number] = ['Potatostreet', 10];
+// let address: [string, number] = [10, 'Potatostreet']; // error

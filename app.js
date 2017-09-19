@@ -15,4 +15,7 @@ myRealAge = 30;
 // array
 var hobbies = ['cooking', 'football'];
 hobbies = [100];
-// hobbies = 100; // type error 
+// hobbies = 100; // type error
+// tuples
+var address = ['Potatostreet', 10];
+// let address: [string, number] = [10, 'Potatostreet']; // error 
