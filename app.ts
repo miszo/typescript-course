@@ -23,3 +23,14 @@ hobbies = [100];
 // tuples
 let address: [string, number] = ['Potatostreet', 10];
 // let address: [string, number] = [10, 'Potatostreet']; // error
+
+// enums
+enum Color {
+  Red = 10, // 10
+  Green, // 11
+  Yellow = 2, // 2
+  Purple // 3
+}
+
+let myColor: Color = Color.Green;
+console.log(myColor);
