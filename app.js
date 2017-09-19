@@ -49,3 +49,10 @@ function multiply(value1, value2) {
 }
 // console.log(multiply(2, 'miszo'));
 console.log(multiply(2, 2));
+// function types
+var myMultiply;
+// myMultiply = sayHello;
+// myMultiply();
+myMultiply = multiply;
+console.log(myMultiply(5, 2));
+;
