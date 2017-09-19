@@ -1,0 +1,14 @@
+{
+  "name": "typescript-playground",
+  "version": "1.0.0",
+  "description": "Typescript playground",
+  "main": "script.js",
+  "scripts": {
+    "start": "http-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  }
+}
