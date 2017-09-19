@@ -14,3 +14,8 @@ let hasHobbies: boolean = true; // or false
 let myRealAge: number;
 myRealAge = 30;
 // myRealAge = '30';
+
+// array
+let hobbies: any[] = ['cooking', 'football'];
+hobbies = [100];
+// hobbies = 100; // type error
